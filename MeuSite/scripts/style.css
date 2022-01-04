@@ -1,0 +1,337 @@
+﻿html {
+    font-family: 'Century Gothic';
+}
+
+body {
+    background-color: #343434;
+    margin-top: -5px;
+}
+
+/*header*/
+.geral {
+    background-color: #ebebeb;
+    width: 1200px;
+    height: 1500px;
+    margin:auto;
+}
+
+.cabecalho {
+    background-color: #202020;
+    width: 1200px;
+    height: 500px;
+}
+
+    .logo {
+    /*background-color: rebeccapurple;*/
+    width:500px;
+    height:80px;
+    float: left;
+    margin-left: 50px;
+}
+
+.menu {
+    background-color: black;
+    width: 1200px;
+    height: 50px;
+    float: left;
+    border: solid 1px red;
+    position: fixed;
+    margin-top: 80px;
+    z-index: 98;
+    opacity: 0.8;
+}
+
+.divLat {
+    /*background-color: palevioletred;*/
+    width: 420px;
+    height: 370px;
+    float: left;
+    margin:50px 730px 0 50px;
+}
+
+
+.divFlut1 {
+    /*background-color: lightseagreen;*/
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    margin: 0 0 0 500px;
+    opacity: 0.8;
+    z-index: 99;
+}
+
+/*main*/
+.conteudoP {
+    width: 1200px;
+    height: auto;
+    float: left;
+}
+
+.aside {
+    background-color: #c7c5c5;
+    width: 350px;
+    height: 850px;
+    float: left;
+    margin-left: 50px;
+    padding-left: 10px;
+}
+
+.asideDentro {
+    background-color: #c7c5c5;
+    width: 250px;
+    height: 850px;
+    float: left;
+    margin-left: 50px;
+}
+
+.section1 {
+/*    background-color: #dcdbdb;*/
+    width: 750px;
+    height: 350px;
+    float: left;
+}
+
+.section1Dentro {
+    /*background-color: #dcdbdb;*/
+    width: 650px;
+    height: 450px;
+    float: left;
+    margin-left: 50px;
+}
+
+.section2 {
+    /*background-color: #dcdbdb;*/
+    width: 750px;
+    height: 500px;
+    float: left;
+}
+
+.sectionD1 {
+    /*background-color:blue;*/
+    width: 700px;
+    height: 80px;
+    float: left;
+    padding-left: 50px;
+}
+
+.thumb {
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin-left: 10px;
+}
+
+.artigo {
+    width: 600px;
+    height: 140px;
+    float: left;
+}
+
+.sectionD2 {
+    /*background-color: bisque;*/
+    width: 750px;
+    height: 140px;
+    float: left;
+}
+
+.sectionD3 {
+    /*background-color: palegreen;*/
+    width: 750px;
+    height: 140px;
+    float: left;
+}
+
+.sectionD4 {
+    /*background-color: seagreen;*/
+    width: 750px;
+    height: 140px;
+    float: left;
+}
+
+
+
+.divFlut2 {
+    /*ackground-color: rosybrown;*/
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    margin-top: 500px;
+    /*opacity: 0.8;*/
+}
+
+/*footer*/
+.rodape {
+    background-color: #202020;
+    width: 1200px;
+    height: 150px;
+    float: left;
+}
+
+.footer {
+    background-color: #202020;
+    width: 1200px;
+    height: 75px;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.footerdetalhe {
+    background-color: black;
+    width: 1200px;
+    height: 50px;
+    float: left;
+    text-align: center;
+}
+
+/*menu*/
+ul li a {
+    text-decoration: none;
+}
+ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+/*pseudo classes*/
+a:link, a:visited {
+    color:whitesmoke;
+}
+
+a:hover {
+    color: red;
+}
+
+/*textos*/
+h1 {
+    font-size: 25pt;
+    color: #efefef;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 15pt;
+    color: #efefef;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 12pt;
+    color: #efefef;
+    font-weight: lighter;
+}
+
+.paragrafo1 {
+    font-size: 12pt;
+    color: #efefef;
+    text-align: left; /*justify*/
+}
+
+.paragrafo2 {
+    font-size: 12pt;
+    color: #343434;
+    text-align: left; 
+}
+
+.paragrafo3 {
+    font-size: 12pt;
+    color: #343434;
+    text-align: center;
+    margin: 15px;
+}
+
+
+.formata1 {
+    color: red;
+}
+
+.formata2 {
+    color: black;
+}
+
+.formata2 {
+    color: black;
+
+}
+
+/*about*/
+.contAbout {
+    background-color: #202020;
+    width: 1200px;
+    height: 1000px;
+    float: left;
+}
+
+.aboutBase {
+    background-color: #c7c5c5;
+    width: 1100px;
+    height: 800px;
+    float: left;
+    margin: 70px 0 0 50px;
+}
+
+.aboutEsq {
+    background-color: #c7c5c5;
+    width: 475px;
+    height: 700px;
+    float: left;
+    margin: 50px 0 0 50px;
+}
+
+
+
+/*services*/
+.contServices {
+    background-color: #272727;
+    width: 1200px;
+    height: 1000px;
+    float: left;
+}
+
+.servicesBase {
+    background-color: whitesmoke;
+    width: 1100px;
+    height: 800px;
+    float: left;
+    margin: 70px 0 0 50px;
+}
+
+.servicesEsc {
+    background-color: #d3d3d3;
+    width: 300px;
+    height: 700px;
+    float: left;
+    margin: 50px 0 0 50px;
+    text-align: center;
+    border: solid 1px red;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px grey;
+}
+/*contact*/
+.contContact {
+    background-color: #141313;
+    width: 1200px;
+    height: 1000px;
+    float: left;
+}
+
+.contactBase {
+    background-color: #343434;
+    width: 1100px;
+    height: 800px;
+    float: left;
+    margin: 70px 0 0 50px;
+}
+
+.formulario {
+    /*background-color: whitesmoke;*/
+    width: 50%;
+    height: 500px;
+    float: left;
+    margin: 100px 0 0 200px;
+}
+
+input[type="text"],textarea {
+    width: 60%;
+}
+

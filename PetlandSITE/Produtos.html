@@ -1,0 +1,411 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale-1" />
+    <meta charset="utf-8" />
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="imagens/iconProduto1.png" rel="icon" />
+    <link href="#" rel="icon" />
+    <link href="CSS/Produto.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <title>PETLAND</title>
+</head>
+<body>
+    <!--NavBar-->
+    <div class="container-fluid" id="Home">
+        <header>
+            <!--menu-->
+            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand ms-3 d-none d-md-block" href="index.html">
+                        <img src="imagens/logo-pet.png" width="170" height="60" />
+                    </a>
+
+                    <!--Menu Hambuguer-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse float-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="Produtos.html">Produtos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Encontre">Encontre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Sobre.html">Sobre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Contato.html">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--Pagina dos produtos (13 produtos)-->
+        <main>
+            <!--Mini Naturals-->
+            <section>
+                <div class="container">
+                    <br />
+                    <br />
+                    <hgroup>
+                        <h1>Nossos Produtos!</h1>
+                        <h4>Temos os mais variados petiscos, para todos os tipos e tamanhos de cachorros. Venha conferir! </h4>
+                    </hgroup>
+                    <hr />
+                    <br />
+
+                    <hgroup>
+                        <h1 id="miniNaturals">Mini Naturals</h1>
+                        <h3>Chegaram os petiscos naturais Peltand Mini Naturals, sabor e saúde em uma só mordida!</h3>
+                        <h5>
+                            Acreditamos que uma vida saúdavel começa com o que colocamos no corpo. Quando comemos bem, nos sentimos melhor ainda.
+                            Você é o que você come! E é por isso que trazemos a linha Mini Naturals, aonde você encontra petiscos com os melhores ingredientes,
+                            de primeira qualidade, completamente naturais e carregados de benefícios a saúde."
+                        </h5>
+                    </hgroup>
+
+                    <!-- Fileira de Cards (MINI NATURALS)-->
+                    <div class="row">
+
+                        <!--Health 60g-->
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card border-danger text-md-center my-5">
+
+                                <img src="imagens/Health1.png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Health 60g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Mini Naturals</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Fresh 60g-->
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card border-success text-md-center my-5">
+
+                                <img src="imagens/Fresh.png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Fresh 60g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Mini Naturals</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Relax 60g-->
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card border-warning text-md-center my-5">
+
+                                <img src="imagens/Relax.png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Relax 60g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Mini Naturals</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Digestão 60g-->
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card border-info text-md-center my-5">
+
+                                <img src="imagens/Digestão.png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Digestão 60g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Mini Naturals</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Dental Care-->
+            <section>
+                <div class="container">
+                    <hr>
+                    <hgroup>
+                        <h1 id="dentalCare">Dental Care</h1>
+                        <h3>A linha Dental Care, vem para ajudar na limpeza dos dentes e no combate ao tártaro!</h3>
+                        <h5>
+                            O petisco Dental Care da Petland, serve para ajudar na limpeza dos dentes e no combate ao tártaro e placa do cachorro.
+                            Com textura flexível e sabor irresistível de frango, tudo isso alido a ingredientes ativos que, quando entram em contato
+                            com os dentes do cachorro, ajudam no combate a placa bacteriana.
+                        </h5>
+                    </hgroup>
+
+                    <!-- Fileira de Cards (DENTAL CARE)-->
+                    <div class="row">
+
+                        <!--Raças Pequenas – 3UN - 45g-->
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card border-primary text-md-center my-5">
+
+                                <img src="imagens/Raças Pequenas1.png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Raças Pequenas – 3UN - 45g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Dental Care</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Raças Médias - 7UN - 170g -->
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card border-primary text-md-center my-5">
+
+                                <img src="imagens/Raças Médias.png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Raças Médias - 7UN - 170g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Dental Care</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Raças Grandes - 7UN - 280g-->
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card border-primary text-md-center my-5">
+
+                                <img src="imagens/Raças Grandes .png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Raças Grandes - 7UN - 280g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Dental Care</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Twistie-->
+            <section>
+                <div class="container">
+                    <hr>
+                    <hgroup>
+                        <h1 id="twistie">Twistie</h1>
+                        <h3>Petiscos de carne, bacon e até mesmo vegano? Só na linha twistie!</h3>
+                        <h5>
+                            Contando com um sabor irresistível, a linha twistie se destaca por sua qualidade e sabor.
+                            Feito a partir de carne fresca, a linha twistie conta com diversos ingredientes selecionados,
+                            com muitos nutrientes e vitaminas para todos os portes e tipos de cães, desde o mais novo até o mais velho.
+                        </h5>
+                    </hgroup>
+
+                    <!-- Fileira de Cards (TWISTIE)-->
+                    <div class="row">
+
+                        <!--Carne com Frango Trançado – 4UN - 50g-->
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card border-warning text-md-center my-5">
+
+                                <img src="imagens/Carne com Frango Trançado1.png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Carne com Frango Trançado – 4UN - 50g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Twistie</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Osso Recheado Bacon - 2UN - 50g-->
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card border-primary text-md-center my-5">
+
+                                <img src="imagens/Recheado Bacon.png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Osso Recheado Bacon - 2UN - 50g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Twistie</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Canudinho Veggie Vegano - 3UN - 30g-->
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card border-success text-md-center my-5">
+
+                                <img src="imagens/Canudinho Veggie Vegano.png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Canudinho Veggie Vegano - 3UN - 30g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Twistie</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Balance Control-->
+            <section>
+                <div class="container">
+                    <hr>
+                    <hgroup>
+                        <h1 id="balanceControl">Balance Control</h1>
+                        <h3>Fórmulas que fortalecem os ossos, ingredientes que cuidam da pele e controlam a ansiedade dos cães, você só encontra na linha Balance Control.</h3>
+                        <h5>
+                            A poderosa linha Balance Control, conta com 3 vertentes:
+                            ARTICULAÇÕES: Fortalece os ossos do cão trazendo o auxilio na reparação da cartilagem, auxiliando no fortalecimento das articulações.<br />
+                            CALMING: Ajuda na redução do Stress e Ansiedade dos cães, contém ingredientes naturais que controlam a ansiedade e stress dos cães<br />
+                            SENSITIVE: Voltado par cachorros mais velhos, possui uma fórmula que auxilia no cuidado da pele e pelagem dos cães.
+                        </h5>
+                    </hgroup>
+
+                    <!-- Fileira de Cards (Balance Control)-->
+                    <div class="row">
+
+                        <!--Articulações - 65g-->
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card border-danger text-md-center my-5">
+
+                                <img src="imagens/Articulações.png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Articulações - 65g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Balance Control</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Sensitive - 65g-->
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card border-warning text-md-center my-5">
+
+                                <img src="imagens/Sensitive2.png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Sensitive - 65g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Balance Control</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Calming - 65g-->
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card border-info text-md-center my-5">
+
+                                <img src="imagens/Calming.png" />
+                                <hr />
+                                <h4 class="card-title text-dark text-center">Calming - 65g</h4>
+
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title text-center">Balance Control</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--conteudo 2 Onde comprar (#ENCONTRE) -->
+            <section class="empresas">
+                <div class="container text-center">
+                    <h1 id="Encontre" class="text-center">ONDE COMPRAR</h1>
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <hgroup>
+                                <h5>Encontre nos melhores petshops!</h5>
+                                <h5>Disponivel nas melhores lojas do Brasil!</h5>
+                            </hgroup><hr />
+                        </div>
+                        <div class="grupoUm">
+                            <div class="col-6 col-sm-12">
+                                <a href="https://pethygroup.com.br/pethyprime-2/" target="_blank"><img src="imagens/empresaPethyPrime.png" class="figure-img"></a>
+                                <a href="https://www.petz.com.br/" target="_blank"><img src="imagens/empresaPetz.png" /></a>
+                                <a href="http://www.petmaxi.com.br/" target="_blank"><img src="imagens/EmpresaMaxi.png" class="figure-img"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!--Rodapé-->
+        <footer>
+            <div class="footerDiv">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-12">
+                            <h3>Ajuda</h3>
+                            <p>
+                                <h5>Algum problema ou dúvida? Entre em contato conosco.</h5>
+                            </p><hr />
+                            <h6>E-mail: contato@petland.com.br</h6>
+                            <h6>Tel: (11) 2488-5500</h6>
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <h2>Redes Sociais</h2>
+                            <ul class="redesSociais">
+                                <li><a href="#">F</a></li>
+                                <li><a href="#">I</a></li>
+                                <li><a href="#">T</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--fakefooter-->
+                <div class="fakeFooter text-dark">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 col-sm-12">
+                                <h5 class="small">
+                                    &copy; 2021 Copyright all right reserved
+                                </h5>
+                            </div>
+                            <div class="col-md-5 col-sm-12">
+                                <h5 class="small">
+                                    Powered by Petland Industria e Comercio LTDA
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+
+    <!--Scripts-->
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+</body>
+</html>

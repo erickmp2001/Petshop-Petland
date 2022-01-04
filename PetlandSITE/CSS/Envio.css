@@ -1,0 +1,98 @@
+﻿@font-face {
+    font-family: 'Social Circles v1.1';
+    src: url('../Fonts/SocialCircles/Social Circles v1.1.otf') format('opentype');
+}
+
+body {
+    width: 100%;
+    background-color: #7bd7ee;
+}
+
+.container-fluid {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.collapse {
+    margin-right: 100px;
+}
+
+.navbar-brand {
+    padding-left: 80px;
+}
+
+.imagem {
+    width: 100%;
+    padding-left: 15px;
+}
+
+/* -----------  LOADING  -----------*/
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #ff0000;
+    height: 50px;
+    width: 50px;
+}
+
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+

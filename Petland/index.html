@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="imagens/iconPagina.png" rel="icon" />
+    <link href="CSS/Style.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <title>PETLAND</title>
+</head>
+<body>
+    <!--NavBar e Banner-->
+    <div class="container-fluid" id="Home">
+        <header>
+            <!--menu-->
+            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand ms-3 d-none d-md-block" href="index.html">
+                        <img src="imagens/logo-pet.png" width="170" height="60" />
+                    </a>
+
+                    <!--Menu Hambuguer-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse float-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="Produtos.html">Produtos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Encontre">Encontre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Sobre.html">Sobre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Contato.html">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="meio">
+            <!--Banner-->
+            <section>
+                <div id="BannerFixo" class="carousel d-none d-md-block" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagens/BannerProjeto.png" class="d-block w-100">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Cards e lojas (4 Cards e 4 Imagens de lojas)-->
+            <main>
+                <section>
+                    <div class="container">
+                        <br /><br />
+                        <h1 id="Produtos">Nossas Linhas</h1>
+                        <!--Linha dos cards-->
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12">
+                                <div class="lineCards card border-dark text-center my-3">
+
+                                    <img src="imagens/Card1.1.png" class="cards" />
+                                    <hr />
+                                    <a href="Produtos.html#miniNaturals"><h4 class="card-title">Linha Mini Naturals</h4></a>
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                                <div class="lineCards card border-dark text-center my-3">
+                                    <img src="imagens/Card3.1.png" class="cards" />
+                                    <hr />
+                                    <a href="Produtos.html#dentalCare"><h4 class="card-title">Linha Dental Care</h4></a>
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                                <div class="lineCards card border-dark text-center my-3">
+
+                                    <img src="imagens/Card2.1.png" class="cards" />
+                                    <hr />
+                                    <a href="Produtos.html#twistie"><h4 class="card-title">Linha Twistie</h4></a>
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12">
+                                <div class="lineCards card border-dark text-center my-3">
+
+                                    <img src="imagens/card4.1.png" class="cards" />
+                                    <hr />
+                                    <a href="Produtos.html#balanceControl"><h4 class="card-title">Linha Balance Control</h4></a>
+                                    <hr />
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                </section>
+
+                <!--conteudo 2 Onde comprar (#ENCONTRE) -->
+                <section class="empresas">
+                    <div class="container text-center">
+                        <h1 id="Encontre" class="text-center">ONDE COMPRAR</h1>
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <hgroup>
+                                    <h5>Encontre nos melhores petshops!</h5>
+                                    <h5>Disponivel nas melhores lojas do Brasil!</h5>
+                                </hgroup><hr />
+                            </div>
+                            <div class="grupoUm">
+                                <div class="col-6 col-sm-12">
+                                    <a href="https://pethygroup.com.br/pethyprime-2/" target="_blank"><img src="imagens/empresaPethyPrime.png" class="figure-img"></a>
+                                    <a href="https://www.petz.com.br/" target="_blank"><img src="imagens/empresaPetz.png" /></a>
+                                    <a href="http://www.petmaxi.com.br/" target="_blank"><img src="imagens/EmpresaMaxi.png" class="figure-img"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+        </div>
+        <!--Rodapé-->
+        <footer>
+            <div class="footerDiv">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-12">
+                            <h3>Ajuda</h3>
+                            <p>
+                                <h5>Algum problema ou dúvida? Entre em contato conosco.</h5>
+                            </p><hr />
+                            <h6>E-mail: contato@petland.com.br</h6>
+                            <h6>Tel: (11) 2488-5500</h6>
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <h2>Redes Sociais</h2>
+                            <ul class="redesSociais">
+                                <li><a href="#">F</a></li>
+                                <li><a href="#">I</a></li>
+                                <li><a href="#">T</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--fakefooter-->
+                <div class="fakeFooter text-dark">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 col-sm-12">
+                                <h5 class="small">
+                                    &copy; 2021 Copyright all right reserved
+                                </h5>
+                            </div>
+                            <div class="col-md-5 col-sm-12">
+                                <h5 class="small">
+                                    Powered by Petland Industria e Comercio LTDA
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+
+    <!--scripts-->
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+</body>
+</html>
